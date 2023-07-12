@@ -7,19 +7,19 @@ import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from './Transactions/Transactions';
+const appStyles = {
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '40px',
+  justifyContent: 'center',
+  alignItems: 'center',
+  fontSize: 40,
+  color: '#010101',
+};
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
+    <div style={appStyles}>
       <Profile
         username={user.username}
         tag={user.tag}

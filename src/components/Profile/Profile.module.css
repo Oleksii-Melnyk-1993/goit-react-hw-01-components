@@ -1,0 +1,15 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  background-color: #8594e4;
+  border: 2px solid;
+  border-radius: 14px;
+  margin-top: 30px;
+  /* padding: 20px; */
+  box-shadow: 5px 5px 15px 5px #000000;
+  transition: scale 300ms;
+  gap: 20px;
+}
+.profile:hover {
+  scale: 1.05;
+}
