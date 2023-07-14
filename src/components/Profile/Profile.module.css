@@ -1,15 +1,78 @@
 .profile {
   display: flex;
   flex-direction: column;
-  background-color: #8594e4;
+  background-color: #a2a8d3;
   border: 2px solid;
   border-radius: 14px;
   margin-top: 30px;
   /* padding: 20px; */
   box-shadow: 5px 5px 15px 5px #000000;
   transition: scale 300ms;
+  overflow: hidden;
   gap: 20px;
 }
 .profile:hover {
   scale: 1.05;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.avatar {
+  margin-top: 10px;
+
+  width: 250px;
+  height: 100%;
+}
+.username {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tag {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #38598b;
+}
+.location {
+  margin-top: 10px;
+  color: #38598b;
+  font-size: 25px;
+}
+.socialList {
+  width: 100%;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #dbd8e3;
+  margin-top: 10px;
+  font-size: 24px;
+  width: 100%;
+}
+.socialItem {
+  /* border: 2px solid black; */
+  width: 100%;
+  color: #113f67;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.socialItem:first-child {
+  border-right: 1px solid #000;
+}
+.socialItem:last-child {
+  border-left: 1px solid #000;
+}
+.amount {
+  color: #000000;
+  font-weight: bold;
 }
