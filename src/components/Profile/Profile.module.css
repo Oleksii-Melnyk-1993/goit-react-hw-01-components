@@ -1,4 +1,5 @@
 .profile {
+  width: 350px;
   display: flex;
   flex-direction: column;
   background-color: #a2a8d3;
@@ -12,7 +13,7 @@
   gap: 20px;
 }
 .profile:hover {
-  scale: 1.05;
+  scale: 1.03;
 }
 .description {
   display: flex;
@@ -53,7 +54,7 @@
   justify-content: space-around;
   list-style: none;
   background-color: #dbd8e3;
-  margin-top: 10px;
+  margin-top: auto;
   font-size: 24px;
   width: 100%;
 }
